@@ -1,4 +1,4 @@
-CONTRIBUTORS = []  
+CONTRIBUTORS = ["Sanjith"]  
 
 def add(a, b):
     pass
@@ -13,9 +13,10 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    pass
-
+    	if b == 0:
+		raise Exception("Division by zero")
+	return a/b
 
 if __name__ == "__main__":
     print(f"Welcome to the Group Calculator!, written by {CONTRIBUTORS}")
-    print(add(2+2))
+    print(divide(4,0))

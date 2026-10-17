@@ -1,7 +1,7 @@
 CONTRIBUTORS = ["Adam", "Sanjith","Gijendra Pugalenthi"]
 
 def add(a, b):
-    pass
+    return a+b
 
 
 def subtract(a, b):
@@ -23,3 +23,4 @@ if __name__ == "__main__":
     print(subtract(5, 3))
     print(divide(5,0))
     print(multiply(2,3))
+    print(add(5,3))
